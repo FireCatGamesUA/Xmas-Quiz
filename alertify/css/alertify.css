@@ -868,12 +868,15 @@
 }
 .alertify-notifier .ajs-message.ajs-success {
   background: #FCBA04;
+  border-radius: 16px;
 }
 .alertify-notifier .ajs-message.ajs-error {
   background: #FCBA04;
+  border-radius: 16px;
 }
 .alertify-notifier .ajs-message.ajs-warning {
   background: #FCBA04;
+  border-radius: 16px;
 }
 .alertify-notifier .ajs-message .ajs-close {
   position: absolute;
