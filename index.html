@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XMAS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-papB...тут-hash..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./alertify/css/alertify.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="./alertify/alertify.min.js" defer></script>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 class="title"><span class="reg">XMAS</span><span class="inv">_</span><span class="hl">Quiz</span></h1>
+    </header>
+    <!-- Login block -->
+    <form class="login" id="login_form">
+        <input type="text" placeholder="Enter your name" required id="user_name">
+        <input type="submit" value="Start Quiz" id="start_quiz">
+    </form>
+    <!-- Quiz block -->
+    <main class="quiz">
+        <div class="scroll-container">
+            <section>
+                <p class="question_text">Lorem ipsum.</p>
+                <section id="options_block"></section>
+                <section class="hint_block">
+                    <div class="header_hint">
+                        <p class="hint_text">Показати підказку</p>
+                        <i class="fa-solid fa-angle-down"></i>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </main>
+    <!-- Results block -->
+    <main class="results">
+        <div class="results-container">
+            <div class="my-result">
+                <h2>Ваш результат</h2>
+                <div class="score-circle">
+                    <span id="user-score">0</span>
+                    <span>/10</span>
+                </div>
+                <p>Час: <span id="user-time">0</span> секунд</p>
+                <!-- <button id="restart_btn" class="nav-btn">Почати спочатку</button> -->
+            </div>
+            <div class="leaderboard">
+                <h2>Топ учасників</h2>
+                <div class="leaders-list" id="leaders_list"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="l_text">Language:</p>
+        <p class="lang">Ukrainian</p>
+    </footer>
+</body>
+</html>
