@@ -462,8 +462,8 @@ footer {
     background: #e0a800;
 }
 
-.options-btn{
-    font-family: kyiv, abocat !important;
+.option-btn{
+    font-family: sans-serif !important;
 }
 
 /* Адаптив */
@@ -479,4 +479,5 @@ footer {
     .leaders-list {
         max-height: 300px;
     }
+
 }
